@@ -25,6 +25,8 @@ if ! grep -q "brew shellenv" "$HOME/.zprofile"; then
 fi
 
 brew bundle --file="$HOME/dotfiles/Brewfile"
+# Uncomment to auto-install all brew tools
+# echo "\n🍺 Installing Homebrew packages from Brewfile..."
 
 ### STEP 3: Symlink dotfiles (optional customize) ###
 echo "\n🔗 Linking dotfiles..."
