@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and backups
+*.log
+*.bak
+*~
+
+# Node
+node_modules/
+
+# Shell
+.zsh_history
+.zsh_sessions
