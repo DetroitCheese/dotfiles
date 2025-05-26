@@ -1,0 +1,1 @@
+/Users/isildur1/dotfiles/.zshrc
