@@ -67,3 +67,5 @@ done
 ### STEP 6: Reload shell ###
 echo "\n✅ Setup complete. Reloading shell..."
 exec $SHELL -l
+echo "🔗 Linking ~/.zshrc to dotfiles version..."
+ln -sf "$HOME/dotfiles/shell/.zshrc" "$HOME/.zshrc"
